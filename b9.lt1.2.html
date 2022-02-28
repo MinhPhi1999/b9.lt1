@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="nhapTuoi" type="text">
+<button onclick="show()">Enter</button>
+</body>
+</html>
+<script>
+    function show(){
+        let a = document.getElementById('nhapTuoi').value;
+        if(a<15){
+            alert('khong du tuoi hoc lop 10')
+        }
+    }
+</script>

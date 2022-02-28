@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="nhapA" type="text">
+<input id="nhapB" type="text">
+<input id="nhapC" type="text">
+<button onclick="show()" >Enter</button>
+</body>
+<script>
+    function show(){
+        let a= document.getElementById('nhapA').value;
+        let b= document.getElementById('nhapB').value;
+        let c= document.getElementById('nhapC').value;
+        if (a>b && a>c) {
+            alert('a lon nhat')
+            }
+            else if (b>a && b>c){
+                alert('b lon nhat')
+            }else {
+                alert('c lon nhat')
+            }
+
+    }
+</script>
+</html>

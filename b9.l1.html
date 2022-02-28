@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="nhapA" type="text">
+<input id="nhapB" type="text">
+<button onclick="show()" id="hien" >Enter</button>
+
+<script>
+    function show(){
+    let a= document.getElementById('nhapA').value;
+    let b= document.getElementById('nhapB').value;
+
+        if (a%b==0){
+            alert ('a chia het cho b')
+        } else {
+            alert('a không chia het cho b')
+        }
+    }
+
+</script>
+</body>
+</html>
